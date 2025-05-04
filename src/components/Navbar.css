@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap');
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 16px 32px;
+  border-radius: 16px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  font-family: 'Fredoka', sans-serif;
+}
+
+.navbar-logo a {
+  font-size: 28px;
+  font-weight: 700;
+  color: #ff5c35;
+  text-decoration: none;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 28px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333333;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 999px;
+  transition: background-color 0.2s ease-in-out, color 0.2s;
+}
+
+.navbar-links li a:hover {
+  background-color: #f0f0f0;
+  color: #ff5c35;
+}
+
+.navbar-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.navbar-buttons .btn {
+  padding: 8px 20px;
+  border: none;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-login {
+  background-color: transparent;
+  color: #ff5c35;
+  border: 2px solid #ff5c35;
+}
+
+.btn-login:hover {
+  background-color: #ff5c35;
+  color: white;
+}
+
+.btn-signup {
+  background-color: #ff5c35;
+  color: white;
+}
+
+.btn-signup:hover {
+  background-color: #e14a27;
+}

@@ -1,0 +1,24 @@
+.hero-section {
+    text-align: center;
+    padding: 60px 20px 30px;
+    font-family: 'Fredoka', sans-serif;
+    color: #333;
+  }
+  
+  .hero-heading {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #1a1a1a;
+  }
+  
+  .hero-heading span {
+    color: #ff5c35; /* Match theme orange for impact */
+  }
+  
+  .hero-subtext {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
