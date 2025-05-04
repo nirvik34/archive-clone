@@ -108,7 +108,6 @@ const SignupPage = () => {
               width: '100%',
               cursor: 'pointer',
               transition: '0.3s',
-              c
             }}
           >
             Sign Up
