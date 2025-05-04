@@ -78,3 +78,43 @@
 .btn-signup:hover {
   background-color: #e14a27;
 }
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.hamburger div {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  border-radius: 2px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navbar-links,
+  .navbar-buttons {
+    display: none;
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    top: 70px;
+    right: 32px;
+    padding: 16px;
+    border-radius: 16px;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.05);
+    z-index: 1001;
+  }
+
+  .navbar-links.show,
+  .navbar-buttons.show {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}
